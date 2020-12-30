@@ -8933,6 +8933,10 @@ textarea.form-control {
   color: white;
 }
 
+.booking-iframe {
+  min-height: 20rem;
+}
+
 @media only screen and (max-width: 800px) {
 .intro {
 	margin-top: 40px;
