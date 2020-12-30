@@ -1,4 +1,4 @@
-var images = ["/bg_1.jpg", "/bg_2.jpg", "/bg_3.jpg", "/bg_4.jpg"];
+var images = ["/bg_7.jpg", "/bg_8.jpg", "/bg_9.jpg", "/bg_10.jpg"];
 var i = 0;
 var x = $("#hero-slide");
 console.log(x)
