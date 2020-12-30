@@ -8929,6 +8929,10 @@ textarea.form-control {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.7);
 }
 
+.contact-number {
+  color: white;
+}
+
 @media only screen and (max-width: 800px) {
 .intro {
 	margin-top: 40px;
