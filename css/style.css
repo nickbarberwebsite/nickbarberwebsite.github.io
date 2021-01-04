@@ -8954,6 +8954,18 @@ textarea.form-control {
   color: white;
 }
 
+.content-divider {
+
+}
+
+.content-divider::before {
+  content: '✂';
+  position: absolute;
+  top: -18px;
+  left: -7px;
+  color: #caab40;
+}
+
 @media only screen and (max-width: 800px) {
 .intro {
 	margin-top: 40px;
