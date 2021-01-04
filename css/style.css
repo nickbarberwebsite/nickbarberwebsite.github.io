@@ -8937,6 +8937,23 @@ textarea.form-control {
   min-height: 20rem;
 }
 
+[class*=" icon-"] {
+  margin-right: 0.5rem;
+  color: white;
+}
+
+.footer-content {
+  color: white;
+}
+
+.footer-instagram {
+  list-style: none;
+}
+
+.icon-instagram {
+  color: white;
+}
+
 @media only screen and (max-width: 800px) {
 .intro {
 	margin-top: 40px;
