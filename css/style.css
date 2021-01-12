@@ -8966,6 +8966,10 @@ textarea.form-control {
   color: #caab40;
 }
 
+.gallery-row {
+  justify-content: center;
+}
+
 @media only screen and (max-width: 800px) {
 .intro {
 	margin-top: 40px;
