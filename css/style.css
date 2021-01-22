@@ -8930,7 +8930,7 @@ textarea.form-control {
 }
 
 .contact-number {
-  color: #343a40;
+  color: #fff;
 }
 
 .booking-iframe {
@@ -9027,22 +9027,30 @@ blockquote cite:before {
   content: "\2014 \2009";
 }
 /*For section*/
-/* .ftco-section.marble {
+.ftco-section.marble, .ftco-gallery.marble  {
   background-image: url("../images/white-marble.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
-.ftco-intro .wrap .info {
+.marble h2 {
+  color: #343a40;
+}
+
+/* .ftco-intro .wrap .info {
   background-image: url("../images/white-marble.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-h3.address {
+/* h3.address {
   color: #343a40;
+} */
+
+.ftco-gallery.marble {
+  padding-bottom: 7rem;
 }
