@@ -8980,3 +8980,13 @@ textarea.form-control {
 	margin-right: auto;
 }
 }
+
+
+/*RAGITH'S SECTION*/
+.form-fields-container {
+  padding: 0 2rem;
+}
+
+.form-fields-container button {
+  margin-top: 0.5rem;
+}
