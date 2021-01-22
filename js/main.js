@@ -287,8 +287,9 @@
 
 	$('#appointment_time').timepicker();
 
-
-
+	setTimeout(function() {
+		$('#myModal').modal();
+	}, 2000);
 
 })(jQuery);
 

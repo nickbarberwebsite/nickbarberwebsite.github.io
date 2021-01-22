@@ -8990,3 +8990,7 @@ textarea.form-control {
 .form-fields-container button {
   margin-top: 0.5rem;
 }
+
+.modal {
+  display: block !important;
+}
