@@ -291,5 +291,19 @@
 		$('#myModal').modal();
 	}, 2000);
 
+	$(document).ready(function() {
+		$('form[name=mc-embedded-subscribe-form]').submit(function(e){
+			e.preventDefault();
+			$.ajax({
+				type:'GET',
+				cache: false,
+				url: 'https://gmail.us2.list-manage.com/subscribe/post-json?u=d73be3ea83b64cb52c9607467&amp;id=dbf808e187&c=?',
+				dataType: 'json',
+				contentType: "application/json; charset=utf-8",
+				data: $(this).serialize(),
+				success: function() {$('#myModal').modal('hide')}
+			})
+		})
+	})
 })(jQuery);
 
